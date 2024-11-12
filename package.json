@@ -1,0 +1,35 @@
+{
+  "name": "submission-ml-withgooglecloud",
+  "version": "1.0.0",
+  "description": "submission-penerapan-machine-learning-dengan-google-cloud-dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/server.js",
+    "start-dev": "nodemon ./src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShandySatrian/submission-ml-withgooglecloud.git"
+  },
+  "keywords": [
+    "Submission",
+    "Dicoding",
+    "ShandySatria"
+  ],
+  "author": "Shandy Satria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShandySatrian/submission-ml-withgooglecloud/issues"
+  },
+  "homepage": "https://github.com/ShandySatrian/submission-ml-withgooglecloud#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
