@@ -10,7 +10,7 @@ async function predictClassification(model, image) {
 		const score             = await prediction.data();
 		const PredictionResult   = Math.max(...score) * 100;
         
-        let result = { PredictionResult, label: "Cancer", suggestion: "Segera periksa ke dokter !" };
+        let result = { PredictionResult, label: "Cancer", suggestion: "Segera periksa ke dokter!" };
         if (PredictionResult < 1) {
             result.label        = "Non-cancer";
             result.suggestion   = "Penyakit kanker tidak terdeteksi."
