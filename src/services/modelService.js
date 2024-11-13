@@ -1,7 +1,7 @@
 const tf = require("@tensorflow/tfjs-node");
 
 async function loadModel() {
-	const modelPath = process.env.APP_ENV == "local" ? process.env.LOCAL_MODEL_URL : process.env.MODEL_URL;
+	const modelPath = process.env.MODEL_URL;
 	console.log(`Proses Memuat Model : ${modelPath}`);
 
 	try {
