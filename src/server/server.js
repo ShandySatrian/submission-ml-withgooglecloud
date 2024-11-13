@@ -11,9 +11,6 @@ const InputError = require("../exceptions/InputError");
 			cors: {
 				origin: ["*"],
 			},
-			payload: {
-				maxBytes: 1 * 1024 * 1024,
-			},
 		},
 	});
 
