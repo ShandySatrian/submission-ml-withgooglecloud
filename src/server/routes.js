@@ -17,7 +17,6 @@ const routes = [
 		path: "/predict/histories",
 		method: "GET",
 		handler: getPredictHandler,
-		options: {},
 	},
 ];
 
