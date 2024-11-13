@@ -13,4 +13,4 @@ ENV MODEL_URL="https://storage.googleapis.com/model-deploy-mlgc/model.json"
 ENV PROJECT_ID="submissionmlgc-shandysatria"
 EXPOSE 8080 
 
-CMD [ "npm", "start", ]
+CMD [ "npm", "start" ]
