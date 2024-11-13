@@ -11,6 +11,6 @@ ENV APP_ENV=production
 ENV APP_PORT=3000
 ENV MODEL_URL="https://storage.googleapis.com/model-deploy-mlgc/model.json"
 ENV PROJECT_ID="submissionmlgc-shandysatria"
-EXPOSE 3000
+EXPOSE 8080 
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "start", "-p", "8080:3000" ]
